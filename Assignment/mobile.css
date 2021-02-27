@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .houston {
+  background-color: rgb(96, 89, 117);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.container .houston img {
+  margin: 0;
+}
+
+.container .new-york {
+  background-color: rgb(69, 62, 90);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.container .new-york img {
+  margin: 0;
+}
+
+.container .boston {
+  background-color: rgb(57, 49, 82);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.container .boston img {
+  margin: 0;
+}
